@@ -435,7 +435,7 @@
           </svg>
 
           <div
-            class="d-flex align-center justify-space-around gap-3 relative z-[2]"
+            class="d-flex align-center justify-space-around gap-3 relative z-[2] flex-column flex-md-row pa-7"
           >
             <div>
               <h1 class="text-4xl primarydark--text font-bold leading-[1.3]">
@@ -473,12 +473,10 @@
 </template>
 
 <script>
-
 import placeholderCarouselImage from '@/assets/images/unsplash_OpV94f2edwE.jpg'
 export default {
   data() {
     return {
-      
       featuredSelfStorages: [
         {
           image: placeholderCarouselImage,

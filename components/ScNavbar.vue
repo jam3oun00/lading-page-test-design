@@ -58,6 +58,12 @@
 </template>
 
 <script>
+import {
+  mdiPackageVariantClosed,
+  mdiStore,
+  mdiShieldStar,
+  mdiBook,
+} from '@mdi/js'
 export default {
   data() {
     return {
@@ -65,19 +71,19 @@ export default {
       links: [
         {
           name: 'Active Listings',
-          icon: 'mdi-package-variant-closed',
+          icon: mdiPackageVariantClosed,
         },
         {
           name: 'Sell Your self Storage',
-          icon: 'mdi-store',
+          icon: mdiStore,
         },
         {
           name: 'Free Evaluation',
-          icon: 'mdi-shield-star',
+          icon: mdiShieldStar,
         },
         {
           name: 'Learn',
-          icon: 'mdi-book',
+          icon: mdiBook,
         },
       ],
     }
