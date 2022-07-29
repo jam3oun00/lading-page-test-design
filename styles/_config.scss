@@ -1,0 +1,31 @@
+.sc-btn {
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.sc-input {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  height: 60px;
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  width: 100%;
+  input {
+    width: inherit;
+    outline: none;
+  }
+}
+.v-ripple__container {
+  display: none !important;
+}
+.v-menu__content {
+  box-shadow: 0px 10px 49px rgba(0, 0, 0, 0.13) !important;
+  .v-list-item__title,
+  .v-list-item {
+    font-weight: 600 !important;
+  }
+}
